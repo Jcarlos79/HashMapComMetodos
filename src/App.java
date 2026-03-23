@@ -18,6 +18,16 @@ public class App {
 
         System.out.println("\nLista de Produtos após remoção:");
         cadastro.listarProdutos();
+
+        CadastroClientes cadastroClientes = new CadastroClientes();
+        cadastroClientes.adicionarCliente(1, "Alice");
+        cadastroClientes.adicionarCliente(2, "Bob");    
+        cadastroClientes.adicionarCliente(3, "Charlie");
+        System.out.println("\nLista de Clientes:");
+        cadastroClientes.listarClientes();
+        System.out.println("\nBuscando cliente com ID 2:");
+        cadastroClientes.buscarCliente(2);
+
     }
 
     
