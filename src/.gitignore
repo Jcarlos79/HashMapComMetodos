@@ -1,0 +1,13 @@
+# Pastas de compilação (arquivos .class que o Java gera)
+bin/
+target/
+
+# Arquivos de configuração do Eclipse/VS Code
+.classpath
+.project
+.settings/
+.vscode/
+
+# Arquivos temporários do Sistema Operacional
+Thumbs.db
+.DS_Store
